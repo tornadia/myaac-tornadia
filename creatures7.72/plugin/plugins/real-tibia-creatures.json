@@ -1,0 +1,14 @@
+{
+	"name": "tornadia-creatures",
+	 "description": "This is a list of creatures like on Tibia.com (for 7.72 Tornadia)",
+	"version": "1.0.1",
+	"author": "tornadia",
+	"contact": "scorpthaking@gmail.com",
+	"require": {
+		"myaac": "0.3.0"
+	},
+	"uninstall": [
+		"plugins/real-tibia-creatures.json",
+		"system/templates/creatures"
+	]
+ }
