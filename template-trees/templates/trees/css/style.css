@@ -525,6 +525,7 @@ ul#nav li a {
   text-decoration: none;
   color:#FFF;
   margin-right: 2px;
+  cursor: pointer;
 }
 
 ul#nav li a:hover,ul#nav li a:focus { 

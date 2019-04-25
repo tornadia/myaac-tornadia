@@ -21,7 +21,7 @@ foreach($menus as $category => $menu) {
 		continue;
 	}
 	
-	echo '<li><a href="'. ($category!=1 ? '#' : getLink($menu[0]['link'] )) .'">' . $config['menu_categories'][$category]['name'] . '</a><ul>';
+	echo '<li><a '. ($category!=1 ? '' : 'href="'.getLink($menu[0]['link'] ).'"') .'>' . $config['menu_categories'][$category]['name'] . '</a><ul>';
 	foreach($menus[$category] as $iter => $_menu) {
 		if($category != 1 || $iter != 0) { 
 			if(strpos(trim($_menu['link']), 'http') === 0) {
