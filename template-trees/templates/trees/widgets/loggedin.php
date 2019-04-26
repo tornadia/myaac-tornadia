@@ -4,7 +4,7 @@
 		<ul>
 			<?php
 			if($menu_table_exist) {
-				foreach($menus[7] as $menu) {
+				foreach($menus[8] as $menu) {
 					if (strpos(trim($menu['link']), 'http') === 0) {
 						echo '<li><a href="' . $menu['link'] . '" target="_blank">' . $menu['name'] . '</a></li>';
 					} else {
